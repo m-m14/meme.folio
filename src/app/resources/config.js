@@ -20,7 +20,6 @@ const routes = {
 // Enable password protection on selected routes
 // Set password in pages/api/authenticate.ts
 const protectedRoutes = {
-    '/work/automate-design-handovers-with-a-figma-to-code-pipeline': true
 }
 
 const effects = {
@@ -56,21 +55,4 @@ const display = {
     time:     true
 }
 
-const mailchimp = {
-    action: 'https://url/subscribe/post?parameters',
-    effects: {
-        mask: 'topRight',           // none | cursor | topLeft | topRight | bottomLeft | bottomRight
-        gradient: {
-            display: true,
-            opacity: 0.6            // 0 - 1
-        },
-        dots: {
-            display: false,
-        },
-        lines: {
-            display: false,
-        },
-    }
-}
-
-export { routes, protectedRoutes, effects, style, display, mailchimp, baseURL, i18n, i18nOptions };
+export { routes, protectedRoutes, effects, style, display, baseURL, i18n, i18nOptions };

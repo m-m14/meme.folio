@@ -13,12 +13,6 @@ const createI18nContent = (t) => {
         languages: ['English', 'Urdu']  // optional: Leave the array empty if you don't want to display languages
     }
 
-    const newsletter = {
-        display: true,
-        title: <>{t("newsletter.title", {firstName: person.firstName})}</>,
-        description: <>{t("newsletter.description")}</>
-    }
-
     const social = [
         // Links are automatically displayed.
         // Import new icons in /once-ui/icons.ts
@@ -180,7 +174,6 @@ const createI18nContent = (t) => {
     return {
         person,
         social,
-        newsletter,
         home,
         about,
         blog,
