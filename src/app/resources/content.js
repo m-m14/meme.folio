@@ -6,7 +6,7 @@ const person = {
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Design Engineer',
+    role:      'Professional Embroidery Artist',
     avatar:    '/images/avatar.jpg',
     location:  'Asia/Muscat',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
     languages: ['English', 'Urdu']  // optional: Leave the array empty if you don't want to display languages
@@ -14,8 +14,8 @@ const person = {
 
 const newsletter = {
     display: true,
-    title: <>Subscribe to {person.firstName}'s Newsletter</>,
-    description: <>I occasionally write about design, technology, and share thoughts on the intersection of creativity and engineering.</>
+    title: <>Subscribe to {person.firstName}</>,
+    description: <></>
 }
 
 const social = [
@@ -24,7 +24,7 @@ const social = [
     {
         name: 'GitHub',
         icon: 'github',
-        link: 'https://github.com/once-ui-system/nextjs-starter',
+        link: 'https://github.com/m-m14',
     },
     
     {
@@ -35,7 +35,7 @@ const social = [
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:example@gmail.com',
+        link: 'mailto:maryamimpala@gmail.com',
     },
 ]
 
@@ -65,7 +65,7 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Meme is a meme.</>
+        description: <>Hi, I'm Maryam! I love researching South Asian culture. One of the ways through which I connect with my history is embroidery. This art, which has historically been undermined as a trivial hobby for women, has been an avenue that allowed the women who came before me to express their emotions, create their own stuff in a world that would never allow that, and tell their stories for their descendants to listen to. Embroidery through the ages shows that there's so much more to history than is told in history books that focus on the stories of white men. I love carrying the legacy of the women who came before me by passing threads through a needle and beginning to create my own history..</>
     },
     work: {
         display: false, // set to false to hide this section
@@ -156,7 +156,7 @@ const about = {
 
 const blog = {
     label: 'Blog',
-    title: 'Writing about design and tech...',
+    title: 'Read more about my photography and artwork....',
     description: `Read what ${person.name} has been up to recently`
     // Create new blog posts by adding a new .mdx file to app/blog/posts
     // All posts will be listed on the /blog route
