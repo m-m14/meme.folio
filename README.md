@@ -12,10 +12,10 @@ Memebroidery is a playful yet heartfelt collection of embroidery projects inspir
 - **Contact and Commissions** – Easy-to-use contact form for inquiries or custom commission requests.
 
 ## Tech Stack
-- **Front-end**: HTML, CSS, JavaScript
-- **Back-end**: Java Spring Boot
-- **Database**: MySQL
-- **Hosting**: Deployed via Heroku (or applicable hosting service)
+- **Front-end**: 
+- **Back-end**: 
+- **Database**: 
+- **Hosting**: Deployed via Vercel (or applicable hosting service)
 
 ## Installation and Setup
 ```bash
