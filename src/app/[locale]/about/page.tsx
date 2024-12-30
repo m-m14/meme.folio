@@ -86,7 +86,8 @@ export default function About(
                             .filter((item) => item.link && !item.link.startsWith('mailto:')) // Filter out empty links and email links
                             .map((item) => item.link),
                         worksFor: {
-                            
+                            '@type': 'Organization',
+                            name: about.work.experiences[0].company || ''
                         },
                     }),
                 }}

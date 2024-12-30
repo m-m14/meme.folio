@@ -14,6 +14,7 @@ const RouteGuard: React.FC<RouteGuardProps> = ({ children }) => {
     const [isRouteEnabled, setIsRouteEnabled] = useState(false);
     const [isPasswordRequired, setIsPasswordRequired] = useState(false);
     const [password, setPassword] = useState('');
+    const [isAuthenticated, setIsAuthenticated] = useState(false);
     const [error, setError] = useState<string | undefined>(undefined);
     const [loading, setLoading] = useState(true);
 
@@ -22,6 +23,7 @@ const RouteGuard: React.FC<RouteGuardProps> = ({ children }) => {
             setLoading(true);
             setIsRouteEnabled(false);
             setIsPasswordRequired(false);
+            setIsAuthenticated(false);
 
             const checkRouteEnabled = () => {
                 if (!pathname) return false;
@@ -44,9 +46,12 @@ const RouteGuard: React.FC<RouteGuardProps> = ({ children }) => {
             setIsRouteEnabled(routeEnabled);
 
             if (protectedRoutes[pathname as keyof typeof protectedRoutes]) {
-                setIsPasswordRequired(false);
+                setIsPasswordRequired(true);
 
                 const response = await fetch('/api/check-auth');
+                if (response.ok) {
+                    setIsAuthenticated(true);
+                }
             }
 
             setLoading(false);
@@ -63,6 +68,7 @@ const RouteGuard: React.FC<RouteGuardProps> = ({ children }) => {
         });
 
         if (response.ok) {
+            setIsAuthenticated(true);
             setError(undefined);
         } else {
             setError('Incorrect password');
@@ -85,7 +91,7 @@ const RouteGuard: React.FC<RouteGuardProps> = ({ children }) => {
         );
     }
 
-    if (isPasswordRequired) {
+    if (isPasswordRequired && !isAuthenticated) {
         return (
         <Flex
             fillWidth paddingY="128" maxWidth={24} gap="24"

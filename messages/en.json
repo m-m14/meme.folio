@@ -2,12 +2,17 @@
     "person": {
         "role": "Design Engineer"
     },
+    "newsletter": {
+        "title": "Subscribe to {firstName}'s Newsletter",
+        "description": "I occasionally write about design, technology, and share thoughts on the intersection of creativity and engineering",
+        "button": "Sign up"
+    },
     "home": {
         "label": "Home",
         "title": "{name}'s Portfolio",
         "description": "Portfolio website showcasing my work as a {role}",
         "headline": "High School Senior",
-        "subline": "I'm Meme, an embroidery artist, a highschool senior and a software engineer."
+        "subline": "I'm Selene, a design engineer at FLY, where I craft intuitive user experiences. After hours, I build my own projects."
     },
     "about": {
         "label": "About",
@@ -15,15 +20,44 @@
         "description": "Meet {name}, {role} from {location}",
         "intro": {
             "title": "Introduction",
-            "description": "Hi, I'm Maryam! I love researching South Asian culture. One of the ways through which I connect with my history is embroidery. This art, which has historically been undermined as a trivial hobby for women, has been an avenue that allowed the women who came before me to express their emotions, create their own stuff in a world that would never allow that, and tell their stories for their descendants to listen to. Embroidery through the ages shows that there's so much more to history than is told in history books that focus on the stories of white men. I love carrying the legacy of the women who came before me by passing threads through a needle and beginning to create my own history.."
+            "description": "Meme is a meme."
         },
         "work": {
             "title": "Volunteer Experience",
-            "experiences": {}
+            "experiences": {
+                "FLY": {
+                    "timeframe": "2022 - Present",
+                    "role": "Senior Design Engineer",
+                    "achievements": "Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.;Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster."
+                },
+                "Creativ3": {
+                    "timeframe": "2018 - 2022",
+                    "role": "Lead Designer",
+                    "achievements": "Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.;Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue."
+                }
+            }
         },
-        "studies": {}
-        ,
+        "studies": {
+            "title": "Studies",
+            "institutions": {
+                "University of Jakarta": {
+                    "description": "Studied software engineering."
+                },
+                "Build the Future": {
+                    "description": "Studied online marketing and personal branding."
+                }
+            }
+        },
         "technical": {
+            "title": "Technical skills",
+            "skills": {
+                "Figma": {
+                    "description": "Able to prototype in Figma with Once UI with unnatural speed."
+                },
+                "Nextjs": {
+                    "description": "Building next gen apps with Next.js + Once UI + Supabase."
+                }
+            }
         }
     },
     "blog": {
@@ -42,6 +76,6 @@
         "description": "A photo collection by {name}"
     },
     "projectCard": {
-        "label": "Read more about my photography and artwork..."
+        "label": "Read Case Study"
     }
 }

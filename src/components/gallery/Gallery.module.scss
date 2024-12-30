@@ -2,7 +2,6 @@
     display: flex;
     margin-left: calc(-1 * var(--static-space-16));
     width: 100%;
-    background-color: transparent;
 }
 
 .masonryGridColumn {
@@ -12,5 +11,4 @@
 
 .gridItem {
     margin-bottom: var(--static-space-16);
-    background-color: transparent;
 }
