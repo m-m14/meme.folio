@@ -12,7 +12,7 @@
         "title": "{name}'s Portfolio",
         "description": "Portfolio website showcasing my work as a {role}",
         "headline": "High School Senior",
-        "subline": "I'm Selene, a design engineer at FLY, where I craft intuitive user experiences. After hours, I build my own projects."
+        "subline": "I'm Meme, an embroidery artist, a highschool senior and a software engineer."
     },
     "about": {
         "label": "About",
@@ -20,7 +20,7 @@
         "description": "Meet {name}, {role} from {location}",
         "intro": {
             "title": "Introduction",
-            "description": "Meme is a meme."
+            "description": "Hi, I'm Maryam! I love researching South Asian culture. One of the ways through which I connect with my history is embroidery. This art, which has historically been undermined as a trivial hobby for women, has been an avenue that allowed the women who came before me to express their emotions, create their own stuff in a world that would never allow that, and tell their stories for their descendants to listen to. Embroidery through the ages shows that there's so much more to history than is told in history books that focus on the stories of white men. I love carrying the legacy of the women who came before me by passing threads through a needle and beginning to create my own history.."
         },
         "work": {
             "title": "Volunteer Experience",
@@ -76,6 +76,6 @@
         "description": "A photo collection by {name}"
     },
     "projectCard": {
-        "label": "Read Case Study"
+        "label": "Read more about my photography and artwork..."
     }
 }

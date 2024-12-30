@@ -25,7 +25,7 @@ const createI18nContent = (t) => {
         {
             name: 'GitHub',
             icon: 'github',
-            link: 'https://github.com/once-ui-system/nextjs-starter',
+            link: 'https://github.com/m-m14',
         },
         
         {
@@ -36,7 +36,7 @@ const createI18nContent = (t) => {
         {
             name: 'Email',
             icon: 'email',
-            link: 'mailto:example@gmail.com',
+            link: 'mailto:maryamimpala@gmail.com',
         },
     ]
 
@@ -174,7 +174,31 @@ const createI18nContent = (t) => {
                 alt: 'image',
                 orientation: 'horizontal'
             },
-            
+            {
+                src: '/images/gallery/img-02.png',
+                alt: 'image',
+                orientation:'vertical'
+            },
+            {
+                src: '/images/gallery/img-03.png',
+                alt: 'image',
+                orientation: 'horizontal'
+            },
+            {
+                src: '/images/gallery/img-04.png',
+                alt: 'image',
+                orientation: 'horizontal'
+            },
+            {
+                src: '/images/gallery/img-05.png',
+                alt: 'image',
+                orientation: 'horizontal'
+            },
+            {
+                src: '/images/gallery/img-06.png',
+                alt: 'image',
+                orientation: 'horizontal'
+            },
         ]
     }
     return {

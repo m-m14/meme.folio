@@ -1,89 +1,62 @@
-# **Build your portfolio with Once UI's Magic Portfolio**
+# Memebroidery
 
-View the [demo here](https://demo.magic-portfolio.com).
+Welcome to **Memebroidery** – a personal portfolio website showcasing my embroidery projects that merge internet culture, memes, and traditional stitching techniques.
 
-![Magic Portfolio](public/images/cover.png)
+## About the Project
+Memebroidery is a playful yet heartfelt collection of embroidery projects inspired by the humor and relatability of memes. This website serves as both a gallery and a documentation space for my creative journey in textile art.
 
+## Features
+- **Gallery Display** – Browse high-resolution images of completed embroidery pieces.
+- **Project Details** – Each piece includes a description, materials used, and insights into the inspiration behind the design.
+- **Responsive Design** – Accessible on desktops, tablets, and mobile devices.
+- **Contact and Commissions** – Easy-to-use contact form for inquiries or custom commission requests.
 
-# **Getting started**
+## Tech Stack
+- **Front-end**: HTML, CSS, JavaScript
+- **Back-end**: Java Spring Boot
+- **Database**: MySQL
+- **Hosting**: Deployed via Heroku (or applicable hosting service)
 
-Magic Portfolio was built with [Once UI](https://once-ui.com) for [Next.js](https://nextjs.org). It requires Node.js v18.17+.
+## Installation and Setup
+```bash
+# Clone the repository
+git clone https://github.com/m-m14/meme.folio.git
 
-**1. Clone the repository**
-```
-git clone https://github.com/once-ui-system/magic-portfolio.git
-```
+# Navigate to the project directory
+cd meme.folio
 
-**2. Install dependencies**
-```
+# Run theproject
 npm install
+npm run dev```
+Access the website at:
+```
+http://localhost:3000
 ```
 
-**3. Run dev server**
+## Contribution
+Currently, this is a personal project, but I am open to feedback and collaboration. Feel free to submit pull requests or open issues for suggestions.
+
+## License
+This project is licensed under the MIT License.
+
+## Connect with Me
+- **Instagram**: [@yourhandle](https://instagram.com/yourhandle)
+- **Email**: yourname@example.com
+
+Thank you for visiting Memebroidery – where stitches meet internet culture!
+
+---
+
 ```
-npm run dev
+README.md
+|
+|-- # Memebroidery
+|-- ## About the Project
+|-- ## Features
+|-- ## Tech Stack
+|-- ## Installation and Setup
+|-- ## Contribution
+|-- ## License
+|-- ## Connect with Me
 ```
 
-**4. Edit config**
-```
-src/app/resources/config
-```
-
-**5. Edit content**
-```
-src/app/resources/content (or content-i18n for localization)
-```
-
-**6. Create blog posts / projects**
-```
-Add a new .mdx file to src/app/[locale]/blog/posts or src/app/[locale]/work/projects
-```
-
-# **Features**
-
-## **Once UI**
-- All tokens, components & features of [Once UI](https://once-ui.com)
-
-## **SEO**
-- Automatic open-graph and X image generation with next/og
-- Automatic schema and metadata generation based on the content file
-
-## **Design**
-- Responsive layout optimized for all screen sizes
-- Timeless design without heavy animations and motion
-- Endless customization options through [data attributes](https://once-ui.com/docs/theming)
-
-## **Content**
-- Render sections conditionally based on the content file
-- Enable or disable pages for blog, work, gallery and about / CV
-- Generate and display social links automatically
-- Set up password protection for URLs
-
-## **Localization (NEW)**
-- Magic Portfolio now supports localization with the next-intl library
-- See more info in resources/config.js
-
-# **Authors**
-
-Connect with us on Threads or LinkedIn.
-
-Lorant Toth: [Threads](https://www.threads.net/@lorant.one), [LinkedIn](https://www.linkedin.com/in/tothlorant/)  
-Zsofia Komaromi: [Threads](https://www.threads.net/@zsofia_kom), [LinkedIn](https://www.linkedin.com/in/zsofiakomaromi/)
-
-Localization added by [François Hernandez](https://github.com/francoishernandez)
-
-# **Get involved**
-
-- Join the [Design Engineers Club on Discord](https://discord.com/invite/5EyAQ4eNdS) and share your portfolio with us!
-- Report a [bug](https://github.com/once-ui-system/magic-portfolio/issues/new?labels=bug&template=bug_report.md).
-
-# **License**
-
-Distributed under the CC BY-NC 4.0 License.
-- Commercial usage is not allowed.
-- Attribution is required.
-
-See `LICENSE.txt` for more information.
-
-# **Deploy with Vercel**
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fmagic-portfolio&project-name=portfolio&repository-name=portfolio&redirect-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fmagic-portfolio&demo-title=Magic%20Portfolio&demo-description=Showcase%20your%20designers%20or%20developer%20portfolio&demo-url=https%3A%2F%2Fdemo.magic-portfolio.com&demo-image=%2F%2Fraw.githubusercontent.com%2Fonce-ui-system%2Fmagic-portfolio%2Fmain%2Fpublic%2Fimages%2Fcover.png)
