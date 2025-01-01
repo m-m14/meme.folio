@@ -141,6 +141,11 @@ const gallery = {
             orientation: 'horizontal'
         },
         {
+            src: '/images/projects/project-01/cover-04.jpg', 
+            alt: 'image',
+            orientation: 'horizontal'
+        },
+        {
             src: '/images/gallery/img-02.png', 
             alt: 'image',
             orientation: 'horizontal'
@@ -156,17 +161,12 @@ const gallery = {
             orientation: 'horizontal'
         },
         {
+            src: '/images/projects/project-01/cover-03.jpg', 
+            alt: 'image',
+            orientation: 'horizontal'
+        },
+        {
             src: '/images/gallery/img-05.png', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        {
-            src: '/images/gallery/img-06.png', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        {
-            src: '/images/projects/project-01/cover-01.png', 
             alt: 'image',
             orientation: 'horizontal'
         },
@@ -176,12 +176,12 @@ const gallery = {
             orientation: 'horizontal'
         },
         {
-            src: '/images/projects/project-02/cover-03.png', 
+            src: '/images/gallery/img-06.png', 
             alt: 'image',
             orientation: 'horizontal'
         },
         {
-            src: '/images/projects/project-02/cover-04.png', 
+            src: '/images/projects/project-01/cover-01.jpg', 
             alt: 'image',
             orientation: 'horizontal'
         }

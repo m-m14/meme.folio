@@ -170,36 +170,56 @@ const createI18nContent = (t) => {
         description: t("gallery.description", {name: person.name}),
         // Images from https://pexels.com
         images: [
-            {
-                src: '/images/gallery/img-01.png',
+            { 
+                src: '/images/gallery/img-01.png', 
                 alt: 'image',
                 orientation: 'horizontal'
             },
             {
-                src: '/images/gallery/img-02.png',
-                alt: 'image',
-                orientation:'vertical'
-            },
-            {
-                src: '/images/gallery/img-03.png',
+                src: '/images/projects/project-01/cover-04.jpg', 
                 alt: 'image',
                 orientation: 'horizontal'
             },
             {
-                src: '/images/gallery/img-04.png',
+                src: '/images/gallery/img-02.png', 
                 alt: 'image',
                 orientation: 'horizontal'
             },
             {
-                src: '/images/gallery/img-05.png',
+                src: '/images/gallery/img-03.png', 
                 alt: 'image',
                 orientation: 'horizontal'
             },
             {
-                src: '/images/gallery/img-06.png',
+                src: '/images/gallery/img-04.png', 
                 alt: 'image',
                 orientation: 'horizontal'
             },
+            {
+                src: '/images/projects/project-01/cover-03.jpg', 
+                alt: 'image',
+                orientation: 'horizontal'
+            },
+            {
+                src: '/images/gallery/img-05.png', 
+                alt: 'image',
+                orientation: 'horizontal'
+            },
+            {
+                src: '/images/projects/project-01/cover-02.jpg', 
+                alt: 'image',
+                orientation: 'horizontal'
+            },
+            {
+                src: '/images/gallery/img-06.png', 
+                alt: 'image',
+                orientation: 'horizontal'
+            },
+            {
+                src: '/images/projects/project-01/cover-01.jpg', 
+                alt: 'image',
+                orientation: 'horizontal'
+            }
         ]
     }
     return {
