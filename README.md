@@ -9,13 +9,10 @@ Memebroidery is a playful yet heartfelt collection of embroidery projects inspir
 - **Gallery Display** – Browse high-resolution images of completed embroidery pieces.
 - **Project Details** – Each piece includes a description, materials used, and insights into the inspiration behind the design.
 - **Responsive Design** – Accessible on desktops, tablets, and mobile devices.
-- **Contact and Commissions** – Easy-to-use contact form for inquiries or custom commission requests.
 
 ## Tech Stack
-- **Front-end**: 
-- **Back-end**: 
-- **Database**: 
-- **Hosting**: Deployed via Vercel (or applicable hosting service)
+- **Front-end**:  Next.js, React.js, TypeScript, SCSS, Javascript, MDX, CSS
+- **Hosting**: Deployed via Vercel
 
 ## Installation and Setup
 ```bash
@@ -26,12 +23,11 @@ git clone https://github.com/m-m14/meme.folio.git
 cd meme.folio
 
 # Run the project
-```
 npm install
-```
-```
+
 npm run dev
 ```
+
 Access the website at:
 ```
 http://localhost:3000
@@ -46,17 +42,4 @@ This project is licensed under the MIT License.
 Thank you for visiting Memebroidery – where stitches meet internet culture!
 
 ---
-
-```
-README.md
-|
-|-- # Memebroidery
-|-- ## About the Project
-|-- ## Features
-|-- ## Tech Stack
-|-- ## Installation and Setup
-|-- ## Contribution
-|-- ## License
-|-- ## Connect with Me
-```
 
