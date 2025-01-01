@@ -25,9 +25,11 @@ git clone https://github.com/m-m14/meme.folio.git
 # Navigate to the project directory
 cd meme.folio
 
-# Run theproject
+# Run the project
+```bash
 npm install
-npm run dev```
+npm run dev
+```
 Access the website at:
 ```
 http://localhost:3000
@@ -38,10 +40,6 @@ Currently, this is a personal project, but I am open to feedback and collaborati
 
 ## License
 This project is licensed under the MIT License.
-
-## Connect with Me
-- **Instagram**: [@yourhandle](https://instagram.com/yourhandle)
-- **Email**: yourname@example.com
 
 Thank you for visiting Memebroidery – where stitches meet internet culture!
 
