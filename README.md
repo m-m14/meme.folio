@@ -26,8 +26,10 @@ git clone https://github.com/m-m14/meme.folio.git
 cd meme.folio
 
 # Run the project
-```bash
+```
 npm install
+```
+```
 npm run dev
 ```
 Access the website at:
