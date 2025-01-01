@@ -79,10 +79,11 @@ const createI18nContent = (t) => {
                     achievements: t("about.work.experiences.FLY.achievements").split(";"),
                     images: [ // optional: leave the array empty if you don't want to display images
                         {
-                            src: '/images/projects/project-01/cover-01.jpg',
+                            src: '/images/projects/project-01/cover-02.jpg',
                             alt: 'Once UI Project',
                             width: 16,
-                            height: 9
+                            height: 9,
+                            priority
                         }
                     ]
                 },
